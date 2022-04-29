@@ -14,7 +14,7 @@ describe 'Test for fizzbuzz' do
     expect(solver.fizzbuzz(15)).to eq('fizzbuzz')
   end
 
-  it 'should return the to string' do
+  it 'should return the number to string' do
     expect(solver.fizzbuzz(7)).to eq('7')
   end
 end
