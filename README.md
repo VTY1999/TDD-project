@@ -2,7 +2,7 @@
 
 # Test-Driven Development
 
-> Description the project.
+> This project features practising unit testing in ruby programming language using rspec which is the ubut test framework for ruby programming language.
 
 ## Built With
 
@@ -16,20 +16,45 @@ To get a local copy up and running follow these simple example steps.
 
 - A text editor(preferably Visual Studio Code)
 
+### Install
+
+**Intall ruby programming language**
+
+  - [MacOS](https://github.com/microverseinc/curriculum-ruby/blob/main/simple-ruby/articles/ruby_installation_instructions.md#macOS)
+  - [Ubuntu](https://github.com/microverseinc/curriculum-ruby/blob/main/simple-ruby/articles/ruby_installation_instructions.md#ubuntu)
+  - [Windows](https://github.com/microverseinc/curriculum-ruby/blob/main/simple-ruby/articles/ruby_installation_instructions.md#windows)
+
+**get the Gem files**
+
+```bash
+bundle install
+```
+
+**Install Rspec test library**
+
+```bash
+gem install rspec
+```
+
+
 ### Usage
 
 #### Clone this repository
 
 ```bash
-https://github.com/VTY1999/TDD-project.git
+git clone https://github.com/VTY1999/TDD-project.git
 cd TDD-project
 
 ```
 
-#### Run project
+
+#### Run test
+To run the test, follow the steps below
 
 ```bash
-ruby filename.rb
+$ ruby <filename.rb>
+$ rspec spec/<filename_spec.rb> # for a specific file
+$ rspec spec # for all spec test files
 ```
 
 ## Authors
@@ -58,4 +83,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+This project is [MIT]('./../MIT.md) licensed.
